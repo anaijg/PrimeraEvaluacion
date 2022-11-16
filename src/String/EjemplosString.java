@@ -43,5 +43,17 @@ public class EjemplosString {
         System.out.println("Con equalsIgnoreCase: " + minúsculas.equalsIgnoreCase(mayúsculas));
 
 
+        // Tamaño de un string
+        String str = "Hola";
+        System.out.println("Tamaño = " + str.length());
+        System.out.println("Último carácter del string: " + str.charAt(str.length() - 1));
+
+        // Eliminar espacios en blanco
+        String frase = "El examen es el lunes";
+        frase = frase.replace(" ", "");
+        System.out.println(frase);
+
+
+
     }
 }
